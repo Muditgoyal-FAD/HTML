@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post"    >
+        <h1 align="center">Registration Form</h1>
+        <table align="center" cellpadding="10" >
+           
+         <tr>
+           <td> <label for="Name">First Name</label></td>
+         <td> <input type="text" placeholder="Enter your Name"  maxlength="50" >(Max 50 Characters Allowed)
+        <br><br></td>
+    </tr>
+       <tr> 
+        <td> <label for="Name">Last Name</label></td>
+   <td> <input type="text" placeholder="Enter your Last Name" maxlength="50" required>(Max 50 Characters Allowed)
+       <br><br> </td>
+    </tr>
+     <tr>   <td> <label for="Email">Email Id</label></td>
+            <td><input type="email" placeholder="Enter your Email" required >
+        <br><br></td>
+    </tr>
+      <tr>  <td> <label for="number">Mobile number</label></td>
+           <td> <input type="text" placeholder="Enter your Mobile number" maxlength="10">(10 Digits Allowed)
+        <br><br></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="gender">Gender-</label></td>
+           <td> <input type="radio" name="gen">
+            <label for="Male">Male</label>
+            <input type="radio" name="gen">
+            <label for="Female">Female</label>
+       
+       <br><br>  </td>
+    </tr>
+    <tr>
+       
+        <td> <label for="dob">Date Of Birth(DOB)</label></td>
+          <td>  <select name="Day" id="day">Day
+                <option value="">Day</option>
+                <option value="Monday">Mon</option>
+                <option value="Tuesday">Tue</option>
+                <option value="Wednesday">Wed</option>
+                <option value="Thrusday">Thr</option>
+                <option value="Friday">Fri</option>
+                <option value="Saturday">Sat</option>
+              </select>
+              <select name="month" id="">Month
+                <option value="">Month</option>
+                <option value="JAN">JAN</option>
+                <option value="FEB">FEB</option>
+                <option value="MAR">MAR</option>
+                <option value="APR">APR</option>
+                <option value="MAY">MAY</option>
+                <option value="JUN">JUN</option>
+              </select>
+              <select name="year" id="">Year
+                <option value="">Year</option>
+                <option value="JAN">2000</option>
+                <option value="FEB">2001</option>
+                <option value="MAR">2002</option>
+                <option value="APR">2003</option>
+                <option value="MAY">2004</option>
+                <option value="JUN">2005</option>
+              </select>
+       <br><br> </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="address">Address:</label></td>
+           <td> <textarea name="" id="" cols="30" rows="10" minlength="10" maxlength="50"></textarea>
+       <br><br> </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="city">City</label> </td>
+          <td><input type="text" placeholder="City Name   ">(Max 50 Characters Allowed)
+       <br><br></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pincode">Pincode</label> </td>
+           <td><input type="text" placeholder="Pincode">(Max 6 Numbers Allowed)
+       <br><br></td> 
+    </tr>
+    <tr>
+        <td>
+            <label for="state">state</label></td>
+          <td><input type="text" placeholder="enter state">(Max 50 Characters Allowed)
+       <br><br> </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="country">Country</label> </td>
+           <td> <input type="text" placeholder="enter country">
+      <br><br> </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="hobbies">Hobbies</label></td>
+            <td> <input type="checkbox" name="check">
+            <label for="drawing">drawing</label>
+            <input type="checkbox" name="check">
+            <label for="drawing">Singing</label>
+            <input type="checkbox" name="check">
+            <label for="drawing">Dancing</label>
+            <input type="checkbox" name="check">
+            <label for="drawing">Sketching</label>
+            <input type="checkbox" name="check">
+            <br><label for="others">others</label>
+            <input type="text" placeholder="Ex. Teaching">
+       <br><br> </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="">Qualification</label></td>
+            <td><input type="checkbox" name="check">
+            <label for="high school">High School(10th)</label><br>
+            <input type="checkbox" name="check">
+            <label for="Higher school">Higher School(12th)</label><br>
+            <input type="checkbox" name="check">
+            <label for="graduation">Graduation(Bechelors)</label><br>
+            <input type="checkbox" name="check">
+            <label for="post graduation">Post Graduation(Masters)</label><br>
+            <input type="checkbox" name="check">
+            <label for="Phd">Phd</label>
+
+        <br><br></td>
+    </tr>
+    <tr>
+        <td>
+            <label for="">Courses Applied For</label> </td>
+           <td><input type="checkbox" name="check">
+            <label for="high school">BCA(Bachelor of Computer Applications)</label><br>
+            <input type="checkbox" name="check">
+            <label for="Higher school">B.Com(Bachelor of Commerce)</label><br>
+            <input type="checkbox" name="check">
+            <label for="graduation">B.Sc(Bachelor of Science)</label><br>
+            <input type="checkbox" name="check">
+            <label for="post graduation">B.A(Bachlor of Arts)</label><br>
+            <input type="checkbox" name="check">
+            <label for="Phd">MCA(Master of Computer Applications</label><br>
+            <input type="checkbox" name="check">
+            <label for="Phd">M.Com(Master of Commerce)</label><br>
+            <input type="checkbox" name="check">
+            <label for="Phd">M.Sc(Master of Science)</label></td>
+
+       
+    </tr>
+<tr>
+    <td align="center">
+        <button>Submit</button>
+      <button>Reset</button>
+    </td>
+</tr>
+           
+        </table>
+    </form>
+</body>
+</html>
